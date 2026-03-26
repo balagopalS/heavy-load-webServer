@@ -1,0 +1,3 @@
+com\demo\controller\LoadController.class
+com\demo\service\LoadService.class
+com\demo\HeavyLoadApplication.class
