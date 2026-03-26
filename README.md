@@ -83,3 +83,9 @@ Replacing `Thread.sleep()` with CPU-intensive data transformations (like parsing
 
 ### 4. Lock Contention (Shared Resources)
 Introducing a mock shared cache to force our virtual threads to contend for access. This demonstrates a known virtual thread pitfall: `synchronized` blocks can "pin" the underlying OS thread. We will show how refactoring to `ReentrantLock` avoids this and keeps the app scalable.
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
